@@ -15,7 +15,7 @@ Here, you'll discover the origins of the term "LOL,"
 including its first known use and the tale behind its ascent to fame.
 I hope to provide context for this everywhere statement that has become an essential element in digital communication.
 
-Content Highlights:
+###### Content Highlights:
 
 - Historical Background of "LOL"
 - Stories and facts regarding the initial uses of "LOL"
