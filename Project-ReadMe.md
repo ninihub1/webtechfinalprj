@@ -55,14 +55,14 @@ I hope you enjoy your visit and depart smiling!
 
 #### Base Colours
 
-| Name           | RGB           | HEX          |
-|----------------|---------------|--------------|
-| black          | 0, 0, 0       | #000000      |
-| white          | 255, 255, 255 | #FFFFFF      |
-| cyan           | 2,132,199     | #0284C7      |
-| neutral        | 229,229,229   | #E5E5E5      |
-| yellow         | 254,240,138   | #FEF08A      |
-| cinderberryRed | 217,115,117   | #217,115,117 |
+| Name           | RGB           | HEX      |
+|----------------|---------------|----------|
+| black          | 0, 0, 0       | #000000  |
+| white          | 255, 255, 255 | #FFFFFF  |
+| cyan           | 2,132,199     | #0284C7  |
+| neutral        | 229,229,229   | #E5E5E5  |
+| yellow         | 254,240,138   | #FEF08A  |
+| cinderberryRed | 217,115,117   | #D97375  |
 
 
 

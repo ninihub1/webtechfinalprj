@@ -1,0 +1,18 @@
+.nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: darkcyan;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+
+}
+
+#menu-toggle:checked ~ .nav {
+    opacity: 1;
+    visibility: visible;
+}
+
