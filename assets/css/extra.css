@@ -40,11 +40,11 @@
 }
 
 .custom-footer {
+    bottom: 0;
     position: relative;
-    margin-top: 100px;
+    padding: 20px;
     background-color: #0891B2;
     border-top: 1px solid gray;
-    padding: 10px;
     display: flex;
     align-items: center;
     color: white;
@@ -72,6 +72,7 @@
 }
 
 .main-content {
+    background-color: #9ca3af;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +109,10 @@
     font-weight: bold;
     font-size: 1.25rem;
 }
-
+.main-about{
+    background-color: #9ca3af;
+    color: white;
+}
 @media (min-width: 768px) {
     .nav {
         position: static;
@@ -129,13 +133,17 @@
     }
 
     .custom-header {
-        padding: 10px;
+        margin-top: 10px;
     }
 
     .menu-toggle-btn {
         display: none;
     }
     .main-content{
+        height: calc(100vh - 50px);
         padding-top: 20px;
+    }
+    .custom-footer{
+        bottom: 0;
     }
 }
