@@ -113,6 +113,11 @@
     background-color: #9ca3af;
     color: white;
 }
+.resume-content{
+    color: white;
+    background-color: #9ca3af;
+    text-align: center;
+}
 @media (min-width: 768px) {
     .nav {
         position: static;
@@ -145,5 +150,9 @@
     }
     .custom-footer{
         bottom: 0;
+    }
+    .resume-content{
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
