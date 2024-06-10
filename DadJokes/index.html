@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/site.css">
     <link rel="stylesheet" href="../assets/css/extra.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JokesWebsite</title>
+    <title>Dad Jokes Page</title>
 </head>
 <body>
 <header class="custom-header top-0">
-    <h1 class="text-4xl font-bold">Jokes</h1>
+    <h1 class="text-4xl font-bold">Dad Jokes</h1>
     <input class="hidden" type="checkbox" id="menu-toggle">
     <label for="menu-toggle" class="menu-toggle-btn p-4 text-4xl"><i class="fas fa-bars"></i></label>
     <nav class="nav">
@@ -31,28 +30,27 @@
 <main class="main-jokes p-4">
     <article class="jokes-article">
         <section class="intro-section">
-            <h2 class="text-3xl font-semibold mb-4">Welcome to Our Jokes Page!</h2>
-            <p class="mb-4">Get ready to LOL with our Jokes Page, where humor meets happiness! This page is a treasure trove of some of the most famous and popular jokes that are guaranteed to tickle your funny bone and leave you in stitches.</p>
-            <p class="mb-4">Our collection of classic jokes is a thrill for people of all ages. Whether you're a kid or a kid-at-heart, our jokes are sure to bring a smile to your face. And the best part? We've got something for everyone! From pun-lovers to sarcasm enthusiasts, our jokes cater to all kinds of humor.</p>
-            <p class="mb-4">But that's not all! Our Jokes Page also features a dynamic joke retrieval system, which means you'll always find something new to enjoy. No more scrolling through the same old jokes – our system ensures that you'll always have a fresh dose of humor at your fingertips. So, what are you waiting for? Dive into our joke collection and get ready to laugh your heart out!</p>
+            <h2 class="text-3xl font-semibold mb-4">Welcome to the Dad Jokes Page!</h2>
+            <p class="mb-4">The Dad Jokes Page is dedicated to dads' famously corny and pun-filled jokes. Whether you groan or laugh, these dad jokes are a beloved element of funny culture and will put a smile on your face. This page will also include a feature to dynamically retrieve new dad jokes, ensuring there's always a fresh dad joke to share.</p>
         </section>
         <section class="jokes-section">
-            <h2 class="text-2xl font-semibold mb-4">Famous Jokes to Make Your Day</h2>
+            <h2 class="text-2xl font-semibold mb-4">Compilation of Classic Dad Jokes</h2>
+            <p>Enjoy a collection of timeless dad jokes that never get old.</p>
             <div class="joke">
-                <p><strong>Why don't scientists trust atoms?</strong> Because they make up everything!</p>
+                <p><strong>Why don't skeletons fight each other?</strong> They don't have the guts.</p>
             </div>
             <div class="joke">
-                <p><strong>Why don't eggs tell jokes?</strong> They'd crack each other up!</p>
+                <p><strong>I'm reading a book on anti-gravity.</strong> It's impossible to put down!</p>
             </div>
             <div class="joke">
-                <p><strong>Why did the tomato turn red?</strong> Because it saw the salad dressing!</p>
+                <p><strong>What do you call cheese that isn't yours?</strong> Nacho cheese.</p>
             </div>
         </section>
         <section class="jokes-generator-container">
-            <h2 class="text-2xl font-semibold mb-4">Let's Get You Some New Jokes, Haha!</h2>
+            <h2 class="text-2xl font-semibold mb-4">Get Some New Dad Jokes!</h2>
             <div>
-                <input type="checkbox" id="jokes-generator" name="jokes-api" value="jokes">
-                <label for="jokes-generator">New Jokes FY!</label>
+                <input type="checkbox" id="dad-jokes-generator" name="jokes-api" value="jokes">
+                <label for="dad-jokes-generator">New Dad Jokes FY!</label>
             </div>
             <label class="get-joke" for="api-content"><strong>How many jokes do you want?</strong> Enter a number:</label>
             <input class="get-joke" type="text" id="api-content" name="api-content">
@@ -60,23 +58,23 @@
             <div class="get-joke-response-area" id="response-area"></div>
         </section>
         <section class="fun-facts-section">
-            <h2 class="text-2xl font-semibold mb-4">Iconic Joke Fun Facts</h2>
+            <h2 class="text-2xl font-semibold mb-4">Fun Facts About Dad Jokes</h2>
             <ul class="list-disc list-inside">
-                <li class="mb-2 hover:text-cyan-400">The oldest known joke dates back to 1900 BC in Sumer, and it's a proverb about flatulence!</li>
-                <li class="mb-2 hover:text-cyan-400">Knock-knock jokes originated in the 1930s and quickly became a staple of American humor.</li>
-                <li class="mb-2 hover:text-cyan-400">Did you know? The most retweeted joke on Twitter is a pun about sausages by @decentbirthday: "I told my wife she was drawing her eyebrows too high. She looked surprised."</li>
+                <li class="mb-2 hover:text-cyan-400">The term "dad joke" was first used in 1987 in the Gettysburg Times.</li>
+                <li class="mb-2 hover:text-cyan-400">Dad jokes often rely on puns and simple humor, making them universally understandable.</li>
+                <li class="mb-2 hover:text-cyan-400">Many dad jokes are considered "groaners" because they elicit groans rather than laughter.</li>
             </ul>
         </section>
         <section class="more-jokes-section">
-            <h2 class="text-2xl font-semibold mb-4">More Jokes for Endless Laughter</h2>
+            <h2 class="text-2xl font-semibold mb-4">More Dad Jokes for Endless Laughter</h2>
             <div class="joke">
-                <p><strong>What do you call fake spaghetti?</strong> An impasta!</p>
+                <p><strong>What do you call an alligator in a vest?</strong> An investigator.</p>
             </div>
             <div class="joke">
-                <p><strong>How does a penguin build its house?</strong> Igloos it together!</p>
+                <p><strong>Why did the bicycle fall over?</strong> Because it was two-tired!</p>
             </div>
             <div class="joke">
-                <p><strong>Why did the scarecrow win an award?</strong> Because he was outstanding in his field!</p>
+                <p><strong>What does a nosey pepper do?</strong> Gets jalapeño business!</p>
             </div>
         </section>
     </article>

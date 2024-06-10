@@ -47,3 +47,51 @@ button.addEventListener("click", function() {
         getJokesFromAPI();
     }
 });
+var button = document.getElementById("get-response");
+button.addEventListener("click", function() {
+
+    var responseArea = document.getElementById("response-area");
+    var dadjokesCheckbox = document.getElementById("dad-jokes-generator");
+
+    if (!dadjokesCheckbox.checked) {
+        responseArea.textContent = "Check the box before proceeding!";
+        console.error("Check the box before proceeding!");
+        return;
+    }
+
+    var limit = document.getElementById("api-content").value;
+    if (limit > 30) {
+        responseArea.textContent = "The value is over the limit!";
+        console.error("The value is over the limit!");
+        return;
+    }
+    if (limit === null || limit === "") {
+        responseArea.textContent = "No value inserted for jokes limit!";
+        console.error("No value inserted for jokes limit!");
+        return;
+    }
+
+    const getDadJokesFromAPI = async () => {
+        const apiKey = "T8Ukmlvu3nsh9h4RGNUznQ==0ksGpteX1anK94Rr";
+        try {
+            const jokesResponse = await fetch("https://api.api-ninjas.com/v1/jokes?limit=" + limit, {
+                method: 'GET',
+                headers: {
+                    Accept: 'application/json',
+                    "X-API-Key": apiKey
+                }
+            });
+            const jokesJsonResponse = await jokesResponse.json();
+            let jokes = [];
+            for (let i = 0; i < jokesJsonResponse.length; i++) {
+                jokes.push(jokesJsonResponse[i].joke);
+            }
+            responseArea.textContent = jokes.join("\n");
+        } catch (error) {
+            console.error("Error fetching jokes from the API, please try again!");
+            responseArea.textContent = "Error fetching jokes from the API, please try again!";
+        }
+    }
+    getDadJokesFromAPI();
+});
+
