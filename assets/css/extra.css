@@ -147,7 +147,59 @@
     text-align: center;
     transition: transform 0.3s, border-color 0.3s;
 }
-
+.main-jokes{
+    background-color: #9ca3af;
+    color: white;
+}
+.joke {
+    background-color: #0891B2;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+    padding: 20px;
+    margin: 20px 0;
+}
+.joke:hover {
+    transform: translateY(-5px);
+    border-color: cyan;
+}
+.intro-section, .fun-facts-section, .more-jokes-section {
+    margin-bottom: 40px;
+}
+.jokes-generator-container {
+    margin-top: 40px;
+    background-color: #0891B2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.jokes-generator-container label,
+.jokes-generator-container input,
+.jokes-generator-container button {
+    display: block;
+    margin: 10px 0;
+}
+.get-joke-response-area{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.jokes-generator-container input{
+    color: #06B6D4;
+}
+.jokes-generator-container button{
+    font-weight: bold;
+    background-color: #FEF08A;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: #0891B2;
+}
+.jokes-generator-container label {
+    font-weight: bold;
+}
 
 .project-card:hover {
     border-color: #f72585;
