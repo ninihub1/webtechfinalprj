@@ -4,7 +4,7 @@ module.exports = {
       './about.html',
       './contact.html',
       './dadjokes.html',
-      './home.html',
+      './index.html',
       './jokes.html',
       './projects.html',
       './resume.html',
